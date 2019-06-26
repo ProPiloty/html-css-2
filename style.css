@@ -1,0 +1,138 @@
+/* BACKGROUND && BODY */
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #e1e7fa;
+  font-family: sans-serif;
+}
+
+.bigBackground {
+  background: #ffffff;
+  width: 100%;
+  height: 1000px;
+}
+
+/* NAV BAR && NAV LINKS */
+
+header {
+  padding: 20px;
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  width: 266px;
+  height: 64px;
+  /* background: blue; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.brandImg {
+  height: 33px;
+  width: 33px;
+  margin: 15px;
+  background: black;
+}
+
+.brandText {
+  height: 35px;
+  width: 137px;
+  /* background: white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.brandText h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.brandText h5 {
+  font-size: 12px;
+  margin: 0;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.navList li {
+  margin: 0 2vw;
+}
+
+/* USER BUTTONS */
+
+.userButtons {
+  height: 4vh;
+  border: none;
+  color: white;
+  /* margin-left: 55px; */
+}
+
+#subBtn {
+  background: #0828cc;
+  width: 7.5vw;
+  border-radius: 25px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+#inBtn {
+  width: 50px;
+  height: 32px;
+  margin-left: 30px;
+  background: black;
+  border-radius: 3px;
+}
+
+/* HERO SECTION */
+
+.heroSection {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightHero {
+  background: #e1e7fa;
+  margin-top: 5vh;
+  height: 75vh;
+  width: 92vw;
+}
+
+.heroMaterial {
+  margin-top: 15vh;
+  margin-left: 10vw;
+}
+
+.heroTitle {
+  font-size: 5em;
+  font-weight: 500;
+  margin-bottom: 3vh;
+}
+
+.heroSub {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 40vw;
+  margin-bottom: 3vh;
+}
+
+#heroBtn {
+  background: #0828cc;
+  width: 13vw;
+  height: 5vh;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
